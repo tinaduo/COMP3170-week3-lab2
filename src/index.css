@@ -1,0 +1,66 @@
+:root {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artist-photo {
+    object-fit: cover;
+    width: 145px;
+    height: 145px;
+    border-radius: 300px;
+}
+
+.artist-name {
+    color: #000000;
+}
+
+.artist-details {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    align-content: center;
+    background-color: rgba(255, 255, 255,70);
+    border-radius: 36px;
+    box-shadow: 0 .7836301510105841px 1.4105342718190512px -.14285714285714285px #00000003, 0 1.9196475837030447px 3.45536565066548px -.2857142857142857px #00000003, 0 3.6374547591782176px 6.547418566520792px -.42857142857142855px #00000003, 0 6.350044814858119px 11.430080666744614px -.5714285714285714px #00000004, 0 11.051870570040771px 19.89336702607339px -.7142857142857143px #00000005, 0 20.24281195079675px 36.437061511434145px -.8571428571428571px #00000006, 0 40px 72px -1px #0000000a;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 25px;
+    border-radius: 25px;
+    color: rgb(153, 153, 153);
+}
+
+.artist-info {
+    padding-left: 15px;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.15);
+}
+
+p {
+    margin: 4px;
+    margin-left: 0px;
+}
+
+h2 {
+    margin: 4px;
+    margin-left: 0px;
+}
+
+.artist-details {
+    transition: transform 0.5s ease-in-out;
+}
+
+.artist-details:hover {
+    transform: scale(1.2) rotate(-2deg); 
+}
+
